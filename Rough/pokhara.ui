@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Pokhara</class>
+ <widget class="QDialog" name="Pokhara">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>938</width>
+    <height>522</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">color:black;
+background:white;</string>
+  </property>
+    <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="2">
+      <widget class="QLabel" name="label">
+     <property name="font">
+      <font>
+       <family>Times New Roman</family>
+       <pointsize>13</pointsize>
+       <italic>true</italic>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:none;</string>
+     </property>
+     <property name="text">
+      <string> Pokhara ticks all the right boxes, with spectacular scenery, adventure activities, and accommodation
+              and food choices galore. Whether you’ve returned from a three-week trek or endured a bus trip from 
+              hell, Lakeside Pokhara is the perfect place to recharge your batteries. The tranquil lakes and the
+              earthy ambiance of Pokhara takes us close to nature. You can spend your vacation at the lakeside in
+              the daytime and then enjoy the nightlife of Pokhara.
+      </string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="2">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label_4">
+       <property name="styleSheet">
+        <string notr="true">border-image:url(:/image preview/images/p1.jpg)</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="styleSheet">
+        <string notr="true">border-image: url(:/image preview/images/p2.jpg);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="styleSheet">
+        <string notr="true">border-image: url(:/image preview/images/p3.jpg);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

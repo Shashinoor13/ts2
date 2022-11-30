@@ -1,0 +1,46 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>images/background.png</file>
+        <file>images/logo-login.png</file>
+        <file>App Frame-9.png</file>
+        <file>home-page.png</file>
+        <file>travelSphere.png</file>
+        <file>icons8-search-30.png</file>
+        <file>images/chandragiri hills.png</file>
+        <file>images/namobuddha.png</file>
+        <file>images/Pokhara.png</file>
+        <file>images/thousand steps.png</file>
+        <file>images/BookNow_img01.png</file>
+        <file>images/Btm-box(BookNow).png</file>
+        <file>images/from.png</file>
+        <file>images/To.png</file>
+        <file>images/logo_original.png</file>
+        <file>images/TimeToTravel.png</file>
+        <file>images/BookNow_bgNew.png</file>
+        <file>images/dotted.png</file>
+        <file>images/blueFrame.png</file>
+        <file>images/innerframe.png</file>
+        <file>images/Liberty.png</file>
+        <file>images/namobuddha1.jpg</file>
+        <file>images/travellerpng.png</file>
+        <file>images/icon _home_.png</file>
+        <file>images/signoutvector.png</file>
+        <file>images/taveller.png</file>
+        <file>images/company.png</file>
+        <file>Frame 45.png</file>
+    </qresource>
+    <qresource prefix="/image preview">
+        <file>images/1 step.jpg</file>
+        <file>images/2 step.jpg</file>
+        <file>images/3 step.jpg</file>
+        <file>images/chandra1.jpg</file>
+        <file>images/chandra2.jpg</file>
+        <file>images/chandra3.jpg</file>
+        <file>images/namobuddha.png</file>
+        <file>images/namobuddha1.jpg</file>
+        <file>images/namobuddha2.jpg</file>
+        <file>images/p1.jpg</file>
+        <file>images/p2.jpg</file>
+        <file>images/p3.jpg</file>
+    </qresource>
+</RCC>

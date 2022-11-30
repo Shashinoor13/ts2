@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AfterCompanyLogin</class>
+ <widget class="QMainWindow" name="AfterCompanyLogin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1269</width>
+    <height>744</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">color:black;
+font-family:times new roman;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">#centralwidget{
+	background-color: qlineargradient(spread:pad, x1:0.280788, y1:0.0113636, x2:0.330039, y2:1, stop:0 rgba(161, 228, 231, 255), stop:1 rgba(255, 255, 255, 255));
+}</string>
+   </property>
+   <widget class="QLabel" name="Logo">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>30</y>
+      <width>251</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-repeat:no-repeat;
+background-image: url(:/images/travelSphere.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Profile">
+    <property name="geometry">
+     <rect>
+      <x>1050</x>
+      <y>30</y>
+      <width>100</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">*{
+border-radius:9px;
+	background-color: qlineargradient(spread:pad, x1:0.0788177, y1:0.380682, x2:1, y2:0, stop:0.0640394 rgba(250, 130, 78, 255), stop:1 rgba(224, 206, 107, 255));
+color:white;
+	font: 10pt &quot;Monaco&quot;;
+	border-color: rgb(0,0,0);
+  border-style: solid;
+  border-width: 1px;
+
+}
+
+*:hover{
+color:#F5E0E0;
+}</string>
+    </property>
+    <property name="text">
+     <string>Profile</string>
+    </property>
+   </widget>
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>120</y>
+      <width>661</width>
+      <height>311</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:grey;
+font-family:times new roman;
+border-radius:30px;
+
+background-color: rgb(251, 255, 225);</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="customers">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>440</y>
+      <width>151</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Search For Costumers</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="update">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>440</y>
+      <width>131</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Edit The Table</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="companyUsername">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>90</y>
+      <width>191</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Georgia</family>
+      <pointsize>15</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#companyUsername{
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 700;
+font-size: 29.8444px;
+line-height: 34px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+color: #002D62 ; 
+background: linear-gradient(180deg, #258AE7 0%, rgba(175, 204, 232, 0.95) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="WelcomeNote">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>90</y>
+      <width>161</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Georgia</family>
+      <pointsize>15</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#WelcomeNote{
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 700;
+font-size: 29.8444px;
+line-height: 34px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+color: #002D62 ; 
+background: linear-gradient(180deg, #258AE7 0%, rgba(175, 204, 232, 0.95) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string>WELCOME,</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="signout_icon">
+    <property name="geometry">
+     <rect>
+      <x>1030</x>
+      <y>600</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(C:/Users/PC/OneDrive/Desktop/ENGT presentation/signoutvector.png) ;
+background-repeat: norepeat ;
+background-color: none  ;
+border-radius : 5px ; </string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="signout">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>630</y>
+      <width>93</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">*{
+border-radius:5px;
+	background-color: qlineargradient(spread:pad, x1:0.0788177, y1:0.380682, x2:1, y2:0, stop:0.0640394 rgba(250, 130, 78, 255), stop:1 rgba(224, 206, 107, 255));
+color:white;
+font-family:&quot;Times New Roman&quot;;
+	border-color: rgb(0,0,0);
+  border-style: solid;
+  border-width: 1px;
+font-size:20px;
+
+}
+
+*:hover{
+color:#F5E0E0;
+}</string>
+    </property>
+    <property name="text">
+     <string>Sign Out</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>920</x>
+      <y>130</y>
+      <width>251</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:none;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>20</y>
+       <width>191</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius:10px;
+color:grey;</string>
+     </property>
+     <property name="placeholderText">
+      <string>Username</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>60</y>
+       <width>31</width>
+       <height>32</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image: url(:/images/icons8-search-30.png);
+background-repeat:no-repeat;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1269</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
